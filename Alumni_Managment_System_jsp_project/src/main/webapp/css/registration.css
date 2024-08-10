@@ -1,0 +1,100 @@
+@charset "UTF-8";
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    /* background-color: red; */
+}
+
+body
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color:white;
+  
+
+}
+.container
+{
+   
+    width: 50%;
+    padding: 28px;
+    margin: 0 28px;
+    
+    background-color:white;
+  
+    
+    border-radius: 15px;
+    box-shadow: inset 20px 20px 20px rgb(167, 243, 255),
+    25px 35px 20px rgba(0, 0, 0, 0.05),
+    25px 30px 30px rgba(0, 0, 0, 0.05),
+    inset -10px -10px 15px rgba(176, 234, 255, 0.9),
+    10px 10px 20px rgba(177, 243, 255, 0.9);
+    transition: all 0.5s ease; 
+   
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(5px);
+    margin-left: 00px;
+   
+}
+h1{
+    font-size: 26px;
+    font-weight: 600;
+    text-align: left;
+    color: #2f4f4f;
+    padding-bottom: 8px;
+    border-bottom: 1px solid silver;
+    text-align: center;
+}
+.content
+{
+    /* display: flex; */
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+.input-box
+{
+    /* display: flex; */
+    flex-wrap: wrap;
+    width: 50%;
+    padding-bottom: 15px;
+     
+}
+.input-box.input-box:nth-child(2n){
+
+justify-content: end;
+}
+
+ label, .gender-title
+{
+    width: 95%;
+    color: #2f4f4f;
+    font-weight: bold;
+    margin: 5px 0;
+}
+.gender-title
+{
+    font-size: 16px;
+}
+.input-box input
+{
+   height: 30px;
+   width: 180%;
+ border-bottom:1px
+ 
+   
+}
+.button-container button
+{
+    width: 20%;
+    padding: 9px;
+    font-size: 16px;
+    text-align: center;
+    margin-left: 38%;
+}
